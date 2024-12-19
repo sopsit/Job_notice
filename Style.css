@@ -1,0 +1,209 @@
+.Sinput {
+    position: absolute;
+    left: 20px;
+    color: black;
+    width: 240px;  /* Set width */
+    height: 35px;  /* Set height */
+    border-radius: 10px; 
+    background-color: rgba(255,255,255,255);
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgba(246,246,246,255);
+    font-size: 20px;
+    padding-left: 10px ; 
+}
+
+.header {
+    padding-left: 15px;
+    font-size: 14px;
+}
+.txt {
+    padding-left: 10px;
+    font-size: 16px;
+    color : #b8b8b8;
+}
+.topPage1 {
+    position: absolute;
+    left: 1500px;
+    top: 30px;
+    font-size: 16px;
+    color : #b8b8b8;
+}
+.topPage2 {
+    position: absolute;
+    left: 1250px;
+    top: 30px;
+    font-size: 16px;
+    color : #b8b8b8;
+}
+.topPage3 {
+    position: absolute;
+    left: 1000px;
+    top: 30px;
+    font-size: 16px;
+    color : #b8b8b8;
+}
+.form {
+    position: absolute;
+    left: 1410px; /* X-coordinate */
+    top: 100px;  /* Y-coordinate */
+    width: 280px;
+    height: 800px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    background-color: rgba(255,255,255,255);
+    border-radius: 10px;   
+}
+.form2 {
+    position: absolute;
+    left: 500px; /* X-coordinate */
+    top: 100px;  /* Y-coordinate */
+    width: 900px;
+    height: 80px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    background-color: rgba(255,255,255,255);
+    border-radius: 10px;   
+}
+.form3 {
+    position: absolute;
+    left: 500px; /* X-coordinate */
+    top: 200px;  /* Y-coordinate */
+    width: 900px;
+    height: 700px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    background-color: rgba(255,255,255,255);
+    border-radius: 10px;   
+}
+.form4 {
+    position: absolute;
+    left: 00px; /* X-coordinate */
+    top: 10px;  /* Y-coordinate */
+    width: 2000px;
+    height: 70px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    background-color: rgba(255,255,255,255);
+    border-radius: 10px;   
+}
+.Search {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 770px;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-style: solid;
+}
+.button {
+    background-color: #448df7;
+    position: absolute;
+    left: 800px;
+    top: 10px;
+    width: 90px;
+    height: 60px;
+    color: white;
+    border-style: solid;
+    border-radius: 10px;
+
+}
+.checkbox {
+    display: inline-flex;
+    align-items: center;
+}
+
+.checkbox__input {
+    display: none; /* Hide the default checkbox */
+}
+
+.sqcheckbox__inner {
+    width: 20px; /* Set width */
+    height: 20px; /* Set height */
+    background-color: #fff; /* Background color */
+    border: 2px solid #ccc; /* Border color */
+    border-radius: 5px; 
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+.checkbox__inner {
+    width: 20px; /* Set width */
+    height: 20px; /* Set height */
+    background-color: #fff; /* Background color */
+    border: 2px solid #ccc; /* Border color */
+    border-radius: 50%; /* Make it rounded */
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+.checkbox__input:checked + .sqcheckbox__inner {
+    background-color: #458ef8; /* Background when checked */
+    border-color: #458ef8; /* Border color when checked */
+}
+.checkbox__input:checked + .checkbox__inner {
+    background-color: #458ef8; /* Background when checked */
+    border-color: #458ef8; /* Border color when checked */
+}
+
+.checkbox__inner::after {
+    content: "";
+    position: absolute;
+    left: 6px; /* Position of the checkmark */
+    top: 2px; /* Position of the checkmark */
+    width: 4px; /* Width of the checkmark */
+    height: 10px; /* Height of the checkmark */
+    border: solid white; /* Checkmark color */
+    border-width: 0 2px 2px 0; /* Checkmark shape */
+    transform: rotate(45deg); /* Rotate to form a checkmark */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s;
+}
+.sqcheckbox__inner::after {
+    content: "";
+    position: absolute;
+    left: 6px; /* Position of the checkmark */
+    top: 2px; /* Position of the checkmark */
+    width: 4px; /* Width of the checkmark */
+    height: 10px; /* Height of the checkmark */
+    border: solid white; /* Checkmark color */
+    border-width: 0 2px 2px 0; /* Checkmark shape */
+    transform: rotate(45deg); /* Rotate to form a checkmark */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s;
+}
+
+.checkbox__input:checked + .checkbox__inner::after {
+    opacity: 1; /* Show checkmark when checked */
+}
+.checkbox__input:checked + .sqcheckbox__inner::after {
+    opacity: 1; /* Show checkmark when checked */
+}
+.slider {
+    position: absolute;
+    top:600px;
+    left: 20px;
+    height: 20px;
+    width: 40px;
+    max-width: 100px; /* Set the width of the slider */
+    overflow: hidden; /* Hide overflow */
+    color: #448df7;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 18px;
+}
+.prev {
+    left: 10px;
+}
+.next {
+    right: 10px;
+}
+

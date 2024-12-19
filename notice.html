@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notice</title>
+    <link rel="stylesheet" href="Style.css"> 
+</head>
+<body style="background-color: rgba(246,246,246,255)">
+    <div>
+        <form class="form">
+            <h6 class="header ">Filter</h6>
+            <select class="Sinput"> 
+                <option value="value1">Option 1</option>
+                <option value="value2">Option 2</option>
+                <option value="value3">Option 3</option>
+            </select><br/>
+            <h6 class="header">Availability</h6> 
+            <label class="checkbox" > 
+                <input type="checkbox" class="checkbox__input" >
+                <span class="sqcheckbox__inner"></span>
+                <label type="text" class="txt" > Freelance/Contract </label>
+            </label> 
+            <label class="checkbox" > 
+                <input type="checkbox" class="checkbox__input" >
+                <span class="sqcheckbox__inner"></span>
+                <label type="text" class="txt" > Full Time </label>
+            </label>
+            <h6 class="header">Jobs You Might Like</h6>
+            <label class="checkbox" > 
+                <input type="checkbox" class="checkbox__input" >
+                <span class="checkbox__inner"></span>
+                <label type="text" class="txt" > Best Matches</label>
+            </label> 
+            <label class="checkbox" > 
+                <input type="checkbox" class="checkbox__input" >
+                <span class="checkbox__inner"></span>
+                <label type="text" class="txt" > Most Recent </label> 
+            </label> <br>
+            <label class="checkbox" > 
+                <input type="checkbox" class="checkbox__input" >
+                <span class="checkbox__inner"></span>
+                <label type="text" class="txt" > Saved Jobs </label>
+            </label> 
+            <h6 class="header">Salary</h6>
+            <div class="slider">
+                <div class="slide">
+                    <img src="images/1.jpg" alt="Image 1" />
+                </div>
+                <div class="slide">
+                    <img src="images/2.jpg" alt="Image 2" />
+                </div>
+                <a class="prev" onclick="prevSlide()">&#10094;</a>
+                <a class="next" onclick="nextSlide()">&#10095;</a>
+            </div>                        
+        </form>  
+        <form class="form2">
+          <input class="Search" type="text" id="search_id" placeholder="Search By Title, Company or any jobs keyword...">
+          <button class="button"> Find </button>
+        </form>
+        <form class="form3">
+
+        </form>
+        <form class="form4">
+            <label class="topPage1" >Find Job</label>
+            <label class="topPage2" > Company Aplications</label>
+            <label class="topPage3" >Company Reviews</label>
+        </form>
+    </div>
+
+</body>
+</html>
