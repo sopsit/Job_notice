@@ -1,72 +1,216 @@
 <!DOCTYPE html>
 <html lang="fa">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notice</title>
-    <link rel="stylesheet" href="Style.css"> 
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="fontawesome-free-6.7.2-web/css/all.css ">
+
 </head>
+
 <body style="background-color: rgba(246,246,246,255)">
     <div>
         <form class="form">
+            <div class="close">
+                <i class="fa-regular fa-circle-xmark fa-sm" style="color: #b8b8b8;"></i>
+            </div>
+            <label class="closetxt"> closeall</label>
             <h6 class="header ">Filter</h6>
-            <select class="Sinput"> 
-                <option value="value1">Option 1</option>
+            <select class="Sinput">
+                <option value="value1"> Option 1</option>
                 <option value="value2">Option 2</option>
                 <option value="value3">Option 3</option>
-            </select><br/>
-            <h6 class="header">Availability</h6> 
-            <label class="checkbox" > 
-                <input type="checkbox" class="checkbox__input" >
+            </select><br />
+            <h6 class="header">Availability</h6>
+            <label class="checkbox">
+                <input type="checkbox" class="checkbox__input">
                 <span class="sqcheckbox__inner"></span>
-                <label type="text" class="txt" > Freelance/Contract </label>
-            </label> 
-            <label class="checkbox" > 
-                <input type="checkbox" class="checkbox__input" >
+                <label type="text" class="txt"> Freelance/Contract</label>
+            </label>
+            <label class="checkbox"><br><br>
+                <input type="checkbox" class="checkbox__input">
                 <span class="sqcheckbox__inner"></span>
-                <label type="text" class="txt" > Full Time </label>
+                <label type="text" class="txt"> Full Time </label>
             </label>
             <h6 class="header">Jobs You Might Like</h6>
-            <label class="checkbox" > 
-                <input type="checkbox" class="checkbox__input" >
+            <label class="checkbox">
+                <input type="checkbox" class="checkbox__input">
                 <span class="checkbox__inner"></span>
-                <label type="text" class="txt" > Best Matches</label>
-            </label> 
-            <label class="checkbox" > 
-                <input type="checkbox" class="checkbox__input" >
+                <label type="text" class="txt"> Best Matches</label>
+            </label><br><br>
+            <label class="checkbox">
+                <input type="checkbox" class="checkbox__input">
                 <span class="checkbox__inner"></span>
-                <label type="text" class="txt" > Most Recent </label> 
-            </label> <br>
-            <label class="checkbox" > 
-                <input type="checkbox" class="checkbox__input" >
+                <label type="text" class="txt"> Most Recent </label>
+            </label> <br><br>
+            <label class="checkbox">
+                <input type="checkbox" class="checkbox__input">
                 <span class="checkbox__inner"></span>
-                <label type="text" class="txt" > Saved Jobs </label>
-            </label> 
+                <label type="text" class="txt"> Saved Jobs </label>
+            </label>
             <h6 class="header">Salary</h6>
-            <div class="slider">
-                <div class="slide">
-                    <img src="images/1.jpg" alt="Image 1" />
-                </div>
-                <div class="slide">
-                    <img src="images/2.jpg" alt="Image 2" />
-                </div>
-                <a class="prev" onclick="prevSlide()">&#10094;</a>
-                <a class="next" onclick="nextSlide()">&#10095;</a>
-            </div>                        
-        </form>  
+            <div>
+                <input type="range" min="1" max="100" value="50" class="slider">
+            </div>
+        </form>
         <form class="form2">
-          <input class="Search" type="text" id="search_id" placeholder="Search By Title, Company or any jobs keyword...">
-          <button class="button"> Find </button>
+            <input class="Search" type="text" id="search_id"
+                placeholder="Search By Title, Company or any jobs keyword...">
+            <button class="button"> Find </button>
+            <div class="setsizeMG_Glass">
+                <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+            </div>
         </form>
         <form class="form3">
+            <div class="back">
+                <div class="logoG">
+                    <i class="fa-solid fa-dumpster-fire fa-2xl" style="color: #33d17a;"></i>
+                </div>
+                <label class="h7">Create a figma Design for Web Aplications</label><br>
+                <label class="txt2">Hourly: $100-$350 - Remote Friendly</label>
+                <div class="savemark">
+                    <i class="fa-regular fa-bookmark fa-lg" style="color: #828c99;"></i>
+                </div>
+                <div>
+                    <label class="txt3"> some of blah blah blah . . .</label>
+                </div>
+                <div class="coordinate1">
+                    <div class="tag">
+                        <span class="tag-cloud">dth</span>
+                    </div>
+                </div>
+                <div class="coordinate2">
+                    <div class="tag">
+                        <span class="tag-cloud">dth</span>
+                    </div>
+                </div>
+                <div class="coordinate3">
+                    <div class="tag">
+                        <span class="tag-cloud">dth</span>
+                    </div>
+                </div>
+                <div class="star">
+                    <i class="fa-solid fa-star fa-sm" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-sm" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-sm" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-sm" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-sm" style="color: #FFD43B;"></i>
+                </div>
+                <div class="loc2">
+                    <i class="fa-solid fa-location-dot fa-lg" style="color: #6a748e;"></i>
+                    <label class="txt"> New York</label>
+                </div>
+                <div class="loc3">
+                    <i class="fa-solid fa-circle-check fa-sm" style="color: #1c71d8;"></i>
+                    <label class="txt"> Payment Verified</label>
+                </div>
+            </div>
+            <div class="back2">
+                <div class="logoG">
+                    <i class="fa-brands fa-modx fa-2xl" style="color: #9c13c3;"></i>
+                </div>
+                <label class="h7">Looking for a graphic designer</label><br>
+                <label class="txt2">Hourly: $300-$800 - Remote Friendly</label>
+                <div class="savemark">
+                    <i class="fa-regular fa-bookmark fa-lg" style="color: #828c99;"></i>
+                </div>
+                <div>
+                    <label class="txt3"> some of blah blah blah . . .</label>
+                </div>
+                <div class="coordinate1">
+                    <div class="tag">
+                        <span class="tag-cloud">dth</span>
+                    </div>
+                </div>
+                <div class="coordinate2">
+                    <div class="tag">
+                        <span class="tag-cloud">dth</span>
+                    </div>
+                </div>
+                <div class="coordinate3">
+                    <div class="tag">
+                        <span class="tag-cloud">dth</span>
+                    </div>
+                </div>
+                <div class="star">
+                    <i class="fa-solid fa-star fa-sm" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-sm" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-sm" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-sm" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-sm" style="color: #FFD43B;"></i>
+                </div>
+                <div class="loc2">
+                    <i class="fa-solid fa-location-dot fa-lg" style="color: #6a748e;"></i>
+                    <label class="txt"> New York</label>
+                </div>
+                <div class="loc3">
+                    <i class="fa-solid fa-circle-check fa-sm" style="color: #1c71d8;"></i>
+                    <label class="txt"> Payment Verified</label>
+                </div>
+            </div>
+            <div class="back3">
+                <div class="logoG">
+                    <i class="fa-brands fa-hive fa-2xl" style="color: #e01b24;"></i>
+                </div>
+                <label class="h7">Saas Platform designer</label><br>
+                <label class="txt2">Hourly: $100-$700 - Remote Friendly</label>
+                <div class="savemark">
+                    <i class="fa-regular fa-bookmark fa-lg" style="color: #828c99;"></i>
+                </div>
+                <div>
+                    <label class="txt3"> some of blah blah blah . . .</label>
+                </div>
+                <div class="coordinate1">
+                    <div class="tag">
+                        <span class="tag-cloud">dth</span>
+                    </div>
+                </div>
+                <div class="coordinate2">
+                    <div class="tag">
+                        <span class="tag-cloud">dth</span>
+                    </div>
+                </div>
+                <div class="coordinate3">
+                    <div class="tag">
+                        <span class="tag-cloud">dth</span>
+                    </div>
+                </div>
+                <div class="star">
+                    <i class="fa-solid fa-star fa-sm" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-sm" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-sm" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-sm" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-star fa-sm" style="color: #FFD43B;"></i>
+                </div>
+                <div class="loc2">
+                    <i class="fa-solid fa-location-dot fa-lg" style="color: #6a748e;"></i>
+                    <label class="txt"> New York</label>
+                </div>
+                <div class="loc3">
+                    <i class="fa-solid fa-circle-check fa-sm" style="color: #1c71d8;"></i>
+                    <label class="txt"> Payment Verified</label>
+                </div>
+            </div>
+            
 
         </form>
         <form class="form4">
-            <label class="topPage1" >Find Job</label>
-            <label class="topPage2" > Company Aplications</label>
-            <label class="topPage3" >Company Reviews</label>
+            <div class="bell">
+                <i class="fa-regular fa-bell" style="color: #c0bfbc;"></i>
+            </div>
+            <label class="topPage1">Find Job</label>
+            <label class="topPage2"> Company Aplications</label>
+            <label class="topPage3">Company Reviews</label>
+            <div class="logopic">
+                <i class="fa-brands fa-pied-piper-alt fa-2xl" style="color: #74C0FC;"></i>
+            </div>
+            <label class="logo">Jobinja</label>
+
         </form>
     </div>
 
 </body>
+
 </html>

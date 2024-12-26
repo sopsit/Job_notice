@@ -10,17 +10,49 @@
     border-width: 4px;
     border-color: rgba(246,246,246,255);
     font-size: 20px;
-    padding-left: 10px ; 
+    padding-left: 30px ;
 }
 
 .header {
     padding-left: 15px;
     font-size: 14px;
 }
+.h7 {
+    position: absolute;
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 80px;
+}
+.tag {
+    display: inline-block;
+    color: rgb(101, 96, 96);
+    padding: 8px 20px;
+    border-radius: 25px;
+    background-color: #d4d9de;
+    margin-top: 8px;
+    width: 40px;
+    height: 20px;
+    font-size: 16px;
+  }
 .txt {
     padding-left: 10px;
     font-size: 16px;
-    color : #b8b8b8;
+    color : #979fa5;
+}
+.txt2 {
+    position: absolute;
+    padding-top: 30px;
+    padding-left: 80px;
+    font-size: 16px;
+    color : #6a6c73;
+}
+.txt3 {
+    position: absolute;
+    padding-top: 60px;
+    padding-left: 20px;
+    font-size: 18px;
+    color : black;
 }
 .topPage1 {
     position: absolute;
@@ -42,6 +74,38 @@
     top: 30px;
     font-size: 16px;
     color : #b8b8b8;
+}
+.loc3 {
+    position: absolute;
+    left:20px ;
+    top: 190px;
+}
+.loc2 {
+    position: absolute;
+    left:400px ;
+    top: 190px;
+}
+.loc {
+    position: absolute;
+    left:10px ;
+    top: 100px;
+}
+.logo {
+    position: absolute;
+    left: 100px;
+    top: 25px;
+    font-size: 22px;
+    color : #050505; 
+}
+.logopic {
+    position: absolute;
+    left: 45px;
+    top: 25px;
+}
+.logoG {
+    position: absolute;
+    left: 20px;
+    top: 35px;
 }
 .form {
     position: absolute;
@@ -70,7 +134,7 @@
     left: 500px; /* X-coordinate */
     top: 200px;  /* Y-coordinate */
     width: 900px;
-    height: 700px;
+    height: 800px;
     color: rgb(0, 0, 0);
     font-size: 20px;
     background-color: rgba(255,255,255,255);
@@ -98,6 +162,11 @@
     font-size: 16px;
     border-style: solid;
 }
+.savemark {
+    position: absolute;
+    left: 750px;
+    top: 30px;
+}
 .button {
     background-color: #448df7;
     position: absolute;
@@ -109,6 +178,70 @@
     border-style: solid;
     border-radius: 10px;
 
+}
+.bell {
+    position: absolute;
+    left: 1850px;
+    top: 30px;
+}
+.back {
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 800px;
+    height: 230px;
+    left: 20px;
+    top: 20px;
+    border-radius: 10px;
+}
+.back2 {
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 800px;
+    height: 230px;
+    left: 20px;
+    top: 280px;
+    border-radius: 10px;
+}
+.back3 {
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 800px;
+    height: 230px;
+    left: 20px;
+    top: 540px;
+    border-radius: 10px;
+}
+.setsizeMG_Glass {
+    position: absolute;
+    left: 807px;
+    top: 25px;
+}
+.coordinate1 {
+    position: absolute;
+    left: 20px;
+    top: 120px;
+}
+.coordinate2 {
+    position: absolute;
+    left: 120px;
+    top: 120px;
+}
+.coordinate3 {
+    position: absolute;
+    left: 220px;
+    top: 120px;
+}
+.close {
+    position: absolute;
+    left: 240px;
+    top: 25px;
+}
+.closetxt {
+    position: absolute;
+    left: 180px;
+    top: 30px;
+    color: #b8b8b8;
+    font-size: 14px;
 }
 .checkbox {
     display: inline-flex;
@@ -176,34 +309,27 @@
 }
 
 .checkbox__input:checked + .checkbox__inner::after {
-    opacity: 1; /* Show checkmark when checked */
+    opacity: 1; 
 }
 .checkbox__input:checked + .sqcheckbox__inner::after {
-    opacity: 1; /* Show checkmark when checked */
+    opacity: 1; 
 }
+.slider-container {
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
 .slider {
     position: absolute;
-    top:600px;
     left: 20px;
-    height: 20px;
-    width: 40px;
-    max-width: 100px; /* Set the width of the slider */
-    overflow: hidden; /* Hide overflow */
-    color: #448df7;
-}
+    width: 200px;
+    height: 15px;
+    background: #ddd; 
 
-.prev, .next {
-    cursor: pointer;
+}
+.star {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    color: white;
-    font-size: 18px;
+    top: 190px;
+    left: 240px;
 }
-.prev {
-    left: 10px;
-}
-.next {
-    right: 10px;
-}
-
