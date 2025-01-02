@@ -15,14 +15,32 @@
 
 .header {
     padding-left: 15px;
-    font-size: 14px;
+    font-size: 20px;
+    font: bold;
+    font-family: 'Arial', sans-serif;
 }
+.header2 {
+    position: absolute;
+    left: 8px;
+    top:100px;
+    padding-left: 15px;
+    font-size: 20px;
+    font: bold;
+}
+
 .h7 {
     position: absolute;
     font-family: 'Arial', sans-serif;
     font-size: 20px;
     padding-top: 20px;
     padding-left: 80px;
+}
+.hider {
+    position: fixed;
+    width: 2080px;
+    height: 200px;
+    background-color:#f6f6f6;
+
 }
 .tag {
     display: inline-block;
@@ -54,21 +72,21 @@
     font-size: 18px;
     color : black;
 }
-.topPage1 {
+.topPage_Find_Job {
     position: absolute;
     left: 1500px;
     top: 30px;
     font-size: 16px;
     color : #b8b8b8;
 }
-.topPage2 {
+.topPage_Company_Aplications {
     position: absolute;
     left: 1250px;
     top: 30px;
     font-size: 16px;
     color : #b8b8b8;
 }
-.topPage3 {
+.topPage_Company_Reviews {
     position: absolute;
     left: 1000px;
     top: 30px;
@@ -107,8 +125,8 @@
     left: 20px;
     top: 35px;
 }
-.form {
-    position: absolute;
+.filter_notice {
+    position: fixed;
     left: 1410px; /* X-coordinate */
     top: 100px;  /* Y-coordinate */
     width: 280px;
@@ -118,8 +136,8 @@
     background-color: rgba(255,255,255,255);
     border-radius: 10px;   
 }
-.form2 {
-    position: absolute;
+.Search_form{
+    position: fixed;
     left: 500px; /* X-coordinate */
     top: 100px;  /* Y-coordinate */
     width: 900px;
@@ -129,19 +147,21 @@
     background-color: rgba(255,255,255,255);
     border-radius: 10px;   
 }
-.form3 {
-    position: absolute;
+.notices{
+    position: fixed;
     left: 500px; /* X-coordinate */
     top: 200px;  /* Y-coordinate */
     width: 900px;
     height: 800px;
     color: rgb(0, 0, 0);
-    font-size: 20px;
     background-color: rgba(255,255,255,255);
     border-radius: 10px;   
 }
-.form4 {
-    position: absolute;
+.page-Header {
+    grid-row-start:1;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    position: fixed;
     left: 00px; /* X-coordinate */
     top: 10px;  /* Y-coordinate */
     width: 2000px;
@@ -149,7 +169,7 @@
     color: rgb(0, 0, 0);
     font-size: 20px;
     background-color: rgba(255,255,255,255);
-    border-radius: 10px;   
+    border-radius: 6px;   
 }
 .Search {
     position: absolute;
@@ -167,7 +187,7 @@
     left: 750px;
     top: 30px;
 }
-.button {
+.find_button {
     background-color: #448df7;
     position: absolute;
     left: 800px;
@@ -184,37 +204,43 @@
     left: 1850px;
     top: 30px;
 }
-.back {
+.n1 {
     position: absolute;
     background-color: #f9f9f9;
     width: 800px;
     height: 230px;
-    left: 20px;
-    top: 20px;
+    left: 550px;
+    top: 240px;
     border-radius: 10px;
 }
-.back2 {
+.n2 {
     position: absolute;
     background-color: #f9f9f9;
     width: 800px;
     height: 230px;
-    left: 20px;
-    top: 280px;
+    left: 550px;
+    top: 500px;
     border-radius: 10px;
 }
-.back3 {
+.n3 {
     position: absolute;
     background-color: #f9f9f9;
     width: 800px;
     height: 230px;
-    left: 20px;
-    top: 540px;
+    left: 550px;
+    top: 760px;
     border-radius: 10px;
 }
 .setsizeMG_Glass {
     position: absolute;
     left: 807px;
     top: 25px;
+}
+.container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 200px;
+    grid-template-rows: 300px;
 }
 .coordinate1 {
     position: absolute;
@@ -236,7 +262,7 @@
     left: 240px;
     top: 25px;
 }
-.closetxt {
+.close_bttn {
     position: absolute;
     left: 180px;
     top: 30px;
@@ -246,6 +272,7 @@
 .checkbox {
     display: inline-flex;
     align-items: center;
+    padding-left: 10px;
 }
 
 .checkbox__input {
