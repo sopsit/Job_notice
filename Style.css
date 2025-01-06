@@ -1,346 +1,373 @@
 .Sinput {
-    position: absolute;
-    left: 20px;
+    position: relative;
+    left: 10%;
     color: black;
-    width: 240px;  /* Set width */
-    height: 35px;  /* Set height */
-    border-radius: 10px; 
-    background-color: rgba(255,255,255,255);
+    width: 80%;
+    /* Set width */
+    height: 6%;
+    /* Set height */
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 255);
     border-style: solid;
     border-width: 4px;
-    border-color: rgba(246,246,246,255);
-    font-size: 20px;
-    padding-left: 30px ;
+    border-color: rgba(246, 246, 246, 255);
+    font-size: 1rem;
 }
 
 .header {
     padding-left: 15px;
-    font-size: 20px;
+    font-size: 1.2rem;
     font: bold;
     font-family: 'Arial', sans-serif;
 }
+
 .header2 {
-    position: absolute;
-    left: 8px;
-    top:100px;
+    position: relative;
+    left: 5%;
+    top: 40%;
     padding-left: 15px;
     font-size: 20px;
     font: bold;
 }
 
 .h7 {
-    position: absolute;
+    position: inherit;
+    left: 10%;
+    top: 11%;
     font-family: 'Arial', sans-serif;
-    font-size: 20px;
-    padding-top: 20px;
-    padding-left: 80px;
+    font-size: 1.3rem;
+    padding: top 10%;
+    padding: left 40%;
 }
+
 .hider {
     position: fixed;
+    top: 0px;
     width: 2080px;
     height: 200px;
-    background-color:#f6f6f6;
+    background-color: #f6f6f6;
 
 }
+
 .tag {
+    position: relative;
     display: inline-block;
     color: rgb(101, 96, 96);
     padding: 8px 20px;
     border-radius: 25px;
     background-color: #d4d9de;
-    margin-top: 8px;
-    width: 40px;
-    height: 20px;
-    font-size: 16px;
-  }
+    width: 4%;
+    height: 6%;
+    font-size: 1.1rem;
+}
+
+.tag1 {
+
+    top: 5%;
+    left: 5%;
+}
+
+.tag2 {
+    top: 0%;
+    left: 55%;
+}
+
+.tag3 {
+    top: 0%;
+    left: 85%;
+}
+
 .txt {
-    padding-left: 10px;
-    font-size: 16px;
-    color : #979fa5;
+    padding-left: 0.6rem;
+    font-size: 1rem;
+    color: #979fa5;
 }
+
 .txt2 {
-    position: absolute;
-    padding-top: 30px;
-    padding-left: 80px;
-    font-size: 16px;
-    color : #6a6c73;
+    position: inherit;
+    left: 10%;
+    top: 13%;
+    font-size: 1.1rem;
+    color: #6a6c73;
 }
+
 .txt3 {
-    position: absolute;
-    padding-top: 60px;
-    padding-left: 20px;
-    font-size: 18px;
-    color : black;
+    position: inherit;
+    left: 10%;
+    top: 5%;
+    font-size: 1.1rem;
+    color: black;
 }
+
 .topPage_Find_Job {
-    position: absolute;
-    left: 1500px;
-    top: 30px;
-    font-size: 16px;
-    color : #b8b8b8;
+    position: fixed;
+    left: 70%;
+    top: 3.5%;
+    font-size: 1rem;
+    color: #b8b8b8;
 }
+
 .topPage_Company_Aplications {
-    position: absolute;
-    left: 1250px;
-    top: 30px;
-    font-size: 16px;
-    color : #b8b8b8;
+    position: fixed;
+    left: 50%;
+    top: 3.5%;
+    font-size: 1rem;
+    color: #b8b8b8;
 }
+
 .topPage_Company_Reviews {
-    position: absolute;
-    left: 1000px;
-    top: 30px;
-    font-size: 16px;
-    color : #b8b8b8;
+    position: fixed;
+    left: 30%;
+    top: 3.5%;
+    font-size: 1rem;
+    color: #b8b8b8;
 }
+
 .loc3 {
-    position: absolute;
-    left:20px ;
-    top: 190px;
+    position: inherit;
+    left: 2%;
+    top: 10%;
 }
+
 .loc2 {
-    position: absolute;
-    left:400px ;
-    top: 190px;
+    position: inherit;
+    left: 55%;
+    top: 18%;
 }
+
 .loc {
     position: absolute;
-    left:10px ;
+    left: 10px;
     top: 100px;
 }
+
 .logo {
-    position: absolute;
-    left: 100px;
-    top: 25px;
-    font-size: 22px;
-    color : #050505; 
+    position: relative;
+    left: 8%;
+    top: 2%;
+    font-size: 2rem;
+    color: #050505;
 }
+
 .logopic {
-    position: absolute;
-    left: 45px;
-    top: 25px;
+    position: fixed;
+    left: 3%;
+    top: 3.5%;
 }
+
 .logoG {
-    position: absolute;
-    left: 20px;
-    top: 35px;
+    position: inherit;
+    left: 3%;
+    top: 25%;
 }
+
 .filter_notice {
-    position: fixed;
-    left: 1410px; /* X-coordinate */
-    top: 100px;  /* Y-coordinate */
-    width: 280px;
-    height: 800px;
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    background-color: rgba(255,255,255,255);
-    border-radius: 10px;   
+    display: none;
 }
-.Search_form{
+
+.notices {
     position: fixed;
-    left: 500px; /* X-coordinate */
-    top: 100px;  /* Y-coordinate */
-    width: 900px;
-    height: 80px;
+    left: 23.5%;
+    top: 22%;
+    height: 80%;
+    width: 42%;
     color: rgb(0, 0, 0);
-    font-size: 20px;
-    background-color: rgba(255,255,255,255);
-    border-radius: 10px;   
+    background-color: rgba(255, 255, 255, 255);
+    border-radius: 10px;
+    grid-area: 3/3/3/5;
 }
-.notices{
-    position: fixed;
-    left: 500px; /* X-coordinate */
-    top: 200px;  /* Y-coordinate */
-    width: 900px;
-    height: 800px;
-    color: rgb(0, 0, 0);
-    background-color: rgba(255,255,255,255);
-    border-radius: 10px;   
-}
+
 .page-Header {
-    grid-row-start:1;
-    grid-column-start: 1;
-    grid-row-end: 2;
-    position: fixed;
-    left: 00px; /* X-coordinate */
-    top: 10px;  /* Y-coordinate */
-    width: 2000px;
-    height: 70px;
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    background-color: rgba(255,255,255,255);
-    border-radius: 6px;   
+    display: none;
 }
+
 .Search {
-    position: absolute;
-    left: 10px;
-    top: 10px;
-    width: 770px;
-    height: 50px;
+    position: relative;
+    left: 3%;
+    top: 18%;
+    width: 82%;
+    height: 55%;
     border-radius: 10px;
     padding-left: 10px;
-    font-size: 16px;
+    font-size: 1rem;
     border-style: solid;
 }
-.savemark {
-    position: absolute;
-    left: 750px;
-    top: 30px;
+
+.Search_form {
+
+    display: none;
+
 }
-.find_button {
+
+.savemark {
+    position: inherit;
+    left: 90%;
+    top: 0%;
+}
+
+.Search_button {
     background-color: #448df7;
-    position: absolute;
-    left: 800px;
-    top: 10px;
-    width: 90px;
-    height: 60px;
+    position: relative;
+    left: 5%;
+    top: 18%;
+    width: 10%;
+    height: 70%;
     color: white;
     border-style: solid;
     border-radius: 10px;
 
 }
+
+.bar_back {
+   display: none;
+}
+
 .bell {
-    position: absolute;
-    left: 1850px;
-    top: 30px;
+    position: relative;
+    left: 80%;
+    top: 20%;
 }
+
+.bar {
+    display: none;
+}
+
 .n1 {
-    position: absolute;
+    position: relative;
     background-color: #f9f9f9;
-    width: 800px;
-    height: 230px;
-    left: 550px;
-    top: 240px;
+    width: 300%;
+    height: 320%;
+    left: 190%;
+    top: 340%;
     border-radius: 10px;
 }
+
 .n2 {
-    position: absolute;
+    position: relative;
     background-color: #f9f9f9;
-    width: 800px;
-    height: 230px;
-    left: 550px;
-    top: 500px;
+    width: 338%;
+    height: 320%;
+    left: 100%;
+    top: 710%;
     border-radius: 10px;
 }
+
 .n3 {
-    position: absolute;
+    position: relative;
     background-color: #f9f9f9;
-    width: 800px;
-    height: 230px;
-    left: 550px;
-    top: 760px;
+    width: 295%;
+    height: 320%;
+    left: -2%;
+    top: 1090%;
     border-radius: 10px;
 }
+
 .setsizeMG_Glass {
-    position: absolute;
-    left: 807px;
-    top: 25px;
+    position: relative;
+    left: 90%;
+    top: -30%;
 }
-.container {
+
+.grid_container {
     display: grid;
+    grid-template-rows: 70px 100px 1000px;
+    grid-template-columns: 250px 220px 250px 250px 380px 600px;
     gap: 10px;
-    grid-template-columns: 200px;
-    grid-template-rows: 300px;
+
 }
-.coordinate1 {
-    position: absolute;
-    left: 20px;
-    top: 120px;
-}
-.coordinate2 {
-    position: absolute;
-    left: 120px;
-    top: 120px;
-}
-.coordinate3 {
-    position: absolute;
-    left: 220px;
-    top: 120px;
-}
+
 .close {
-    position: absolute;
-    left: 240px;
-    top: 25px;
+    position: relative;
+    left: 85%;
+    top: 4%;
 }
+
 .close_bttn {
-    position: absolute;
-    left: 180px;
-    top: 30px;
+    position: relative;
+    left: 57%;
+    top: 4%;
     color: #b8b8b8;
-    font-size: 14px;
+    font-size: 0.9rem;
 }
+
 .checkbox {
+    position: relative;
     display: inline-flex;
     align-items: center;
-    padding-left: 10px;
+    padding-left: 4%;
 }
 
 .checkbox__input {
-    display: none; /* Hide the default checkbox */
+    display: none;
 }
 
 .sqcheckbox__inner {
-    width: 20px; /* Set width */
-    height: 20px; /* Set height */
-    background-color: #fff; /* Background color */
-    border: 2px solid #ccc; /* Border color */
-    border-radius: 5px; 
     position: relative;
+    top: 10%;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 15%;
     cursor: pointer;
     transition: background-color 0.3s, border-color 0.3s;
 }
+
 .checkbox__inner {
-    width: 20px; /* Set width */
-    height: 20px; /* Set height */
-    background-color: #fff; /* Background color */
-    border: 2px solid #ccc; /* Border color */
-    border-radius: 50%; /* Make it rounded */
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 50%;
     position: relative;
     cursor: pointer;
     transition: background-color 0.3s, border-color 0.3s;
 }
-.checkbox__input:checked + .sqcheckbox__inner {
-    background-color: #458ef8; /* Background when checked */
-    border-color: #458ef8; /* Border color when checked */
+
+.checkbox__input:checked+.sqcheckbox__inner {
+    background-color: #458ef8;
+    /* Background when checked */
+    border-color: #458ef8;
+    /* Border color when checked */
 }
-.checkbox__input:checked + .checkbox__inner {
-    background-color: #458ef8; /* Background when checked */
-    border-color: #458ef8; /* Border color when checked */
+
+.checkbox__input:checked+.checkbox__inner {
+    background-color: #458ef8;
+    /* Background when checked */
+    border-color: #458ef8;
+    /* Border color when checked */
 }
 
 .checkbox__inner::after {
     content: "";
     position: absolute;
-    left: 6px; /* Position of the checkmark */
-    top: 2px; /* Position of the checkmark */
-    width: 4px; /* Width of the checkmark */
-    height: 10px; /* Height of the checkmark */
-    border: solid white; /* Checkmark color */
-    border-width: 0 2px 2px 0; /* Checkmark shape */
-    transform: rotate(45deg); /* Rotate to form a checkmark */
-    opacity: 0; /* Initially hidden */
-    transition: opacity 0.3s;
-}
-.sqcheckbox__inner::after {
-    content: "";
-    position: absolute;
-    left: 6px; /* Position of the checkmark */
-    top: 2px; /* Position of the checkmark */
-    width: 4px; /* Width of the checkmark */
-    height: 10px; /* Height of the checkmark */
-    border: solid white; /* Checkmark color */
-    border-width: 0 2px 2px 0; /* Checkmark shape */
-    transform: rotate(45deg); /* Rotate to form a checkmark */
-    opacity: 0; /* Initially hidden */
+    left: 6px;
+    /* Position of the checkmark */
+    top: 2px;
+    /* Position of the checkmark */
+    width: 4px;
+    /* Width of the checkmark */
+    height: 10px;
+    /* Height of the checkmark */
+    border: solid white;
+    /* Checkmark color */
+    border-width: 0 2px 2px 0;
+    /* Checkmark shape */
+    transform: rotate(45deg);
+    /* Rotate to form a checkmark */
+    opacity: 0;
+    /* Initially hidden */
     transition: opacity 0.3s;
 }
 
-.checkbox__input:checked + .checkbox__inner::after {
-    opacity: 1; 
+.checkbox__input:checked+.checkbox__inner::after {
+    opacity: 1;
 }
-.checkbox__input:checked + .sqcheckbox__inner::after {
-    opacity: 1; 
+
+.checkbox__input:checked+.sqcheckbox__inner::after {
+    opacity: 1;
 }
+
 .slider-container {
     width: 80%;
     margin: auto;
@@ -348,15 +375,251 @@
 }
 
 .slider {
-    position: absolute;
+    position: relative;
     left: 20px;
     width: 200px;
     height: 15px;
-    background: #ddd; 
+    background: #ddd;
 
 }
+
 .star {
-    position: absolute;
-    top: 190px;
-    left: 240px;
+    position: inherit;
+    top: 28%;
+    left: 30%;
 }
+
+.sqcheckbox__inner::after {
+    content: "";
+    position: absolute;
+    left: 6px;
+    /* Position of the checkmark */
+    top: 2px;
+    /* Position of the checkmark */
+    width: 4px;
+    /* Width of the checkmark */
+    height: 10px;
+    /* Height of the checkmark */
+    border: solid white;
+    /* Checkmark color */
+    border-width: 0 2px 2px 0;
+    /* Checkmark shape */
+    transform: rotate(45deg);
+    /* Rotate to form a checkmark */
+    opacity: 0;
+    /* Initially hidden */
+    transition: opacity 0.3s;
+}
+
+@media (min-width:1330px) and (min-height : 483px) {
+
+    .page-Header {
+        display: block;
+        position: fixed;
+        width: 100%;
+        height: 8%;
+        color: rgb(0, 0, 0);
+        font-size: 1.2rem;
+        background-color: rgba(255, 255, 255, 1);
+        border-radius: 6px;
+        grid-area: 1/5/1/6;
+    }
+
+    .Search_form {
+        display: block;
+        position: fixed;
+        left: 23.5%;
+        top: 12%;
+        width: 41.8%;
+        height: 8%;
+        color: rgb(0, 0, 0);
+        font-size: 1.2rem;
+        background-color: rgba(255, 255, 255, 255);
+        border-radius: 10px;
+        grid-area: 2/3/2/5;
+    }
+}
+
+@media (max-width: 438px) or (max-height : 483px){
+    .bar {
+        display: block;
+        position: inherit;
+        left: 30%;
+        top: 30%;
+    }
+    .bar_back {
+        display: block;
+        position: relative;
+        top: 100%;
+        left: 270%;
+        width: 30%;
+        border-radius: 10px;
+        background-color:#6a6c73;
+    }
+
+}
+
+@media (max-width: 390px) or (max-height : 483px){
+    .bar {
+        display: block;
+        position: inherit;
+        left: 30%;
+        top: 30%;
+    }
+    .bar_back {
+        display: block;
+        position: relative;
+        top: 100%;
+        left: 200%;
+        width: 80%;
+        border-radius: 10px;
+        background-color:#6a6c73;
+    }
+
+}
+
+@media (min-width:1330px) and (min-height : 850px) {
+    .filter_notice {
+        display: block;
+        position: fixed;
+        left: 67%;
+        top: 13%;
+        width: 15%;
+        height: 84%;
+        color: rgb(0, 0, 0);
+        font-size: 1rem;
+        background-color: rgba(255, 255, 255, 255);
+        border-radius: 10px;
+        grid-area: 2/6/3/6;
+    }
+
+}
+
+@media (max-width: 1800px) {
+
+    .topPage_Company_Reviews {
+        left: 20%;
+    }
+
+    .topPage_Find_Job {
+        left: 50%;
+    }
+
+    .topPage_Company_Aplications {
+        left: 35%
+    }
+
+    .bell {
+        left: 60%;
+    }
+
+    .filter_notice {
+        left: 60%;
+    }
+
+    .notices {
+        width: 45%;
+        left: 10%;
+    }
+
+    .Search_form {
+        left: 10%;
+    }
+
+    .n1 {
+        left: 100%;
+        top: 410%;
+    }
+
+    .n2 {
+        left: 0%;
+        top: 810%;
+    }
+
+    .n3 {
+        left: -95%;
+        top: 1210%;
+    }
+}
+
+@media (max-width:1330px) {
+    .notices {
+        left: 0%;
+        top: -10%;
+        width: 100%;
+        height: 100%;
+    }
+    .n1 {
+        left: 10%;
+        top:500%;
+        width: 700%;
+        height: 900%;
+    }
+    .n2 {
+        left:-110%;
+        width: 780%; 
+        top: 1400%;
+        height: 800%;
+    }
+    .n3 {
+        left: -190%;
+        width: 700%;
+        top: 2200%;
+        height: 700%;
+    }
+    .h7{
+        font-size: 5rem;
+    }
+    .txt2 {
+        font-size: 4rem;
+    }
+    .txt3 {
+        font-size: 4rem;
+    }
+    .star {
+        position: inherit;
+        top: 15%;
+        left: 40%;
+        font-size: 50px;
+    }
+    .loc2 {
+        font-size: 50px;
+        left: 62%;
+        top: 0%;
+    }
+    .txt {
+        font-size: 3rem;
+    }
+    .loc3 {
+        font-size: 50px;
+        top: -10%;
+    }
+    .logoG {
+        font-size: 40px;
+        left: 2% ;
+    }
+    .savemark {
+        top: -30%;
+        left: 76%;
+        font-size: 40px;
+    }
+
+}
+
+
+
+/*    <div class="coordinate1">
+                <div class="tag">
+                    <span class="tag-cloud">dth</span>
+                </div>
+            </div>
+            <div class="coordinate2">
+                <div class="tag">
+                    <span class="tag-cloud">dth</span>
+                </div>
+            </div>
+            <div class="coordinate3">
+                <div class="tag">
+                    <span class="tag-cloud">dth</span>
+                </div>
+            </div>*/
