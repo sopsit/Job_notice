@@ -1,11 +1,152 @@
-.Sinput {
+body {
+    margin: 0; 
+    padding: 0;
+}
+.background {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 2000px;
+    background-color: rgba(246,246,246,255);
+}
+.close_bttn {
+
+    position: relative;
+    left: 90%;
+    top: 1.8%;
+}
+.close {
+    position: relative;
+    left: 70%;
+    top: 1.2%;
+    color: #b8b8b8;
+    font-size: 1rem;
+}
+.navbar {
+    display: flex;  
+    flex-direction: row;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    height: 4%;
+}
+.logo {
+    position: relative;
+    left: 4%;
+    top: 40%;
+}
+.Jobinja {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 5%;
+    top: 30%;
+    font-size: 1.5rem;
+}
+.topPage_Company_Reviews {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 25%;
+    top: 30%;
+    font-size: 1rem;
+    color: #b8b8b8;
+}
+.topPage_Find_Job {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 35%;
+    top: 30%;
+    font-size: 1rem;
+    color: #b8b8b8;
+
+}
+.topPage_Company_Aplications {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 45%;
+    top: 30%;
+    font-size: 1rem;
+    color: #b8b8b8;
+
+}
+.bell {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 55%;
+    top: 30%;
+  
+}
+.others{
+    display: flex;  
+    flex-direction: row;
+    margin-top: 20px;
+    background-color: rgba(246,246,246,255);
+    height: 100%;
+}
+.savemark{
+    position: relative;
+    left: 90%;
+}
+.slider {
+    position: relative;
+    top: 12%;
+    left: 20%;
+    width: 200px;
+    height: 15px;
+    background: #ddd;
+}
+.search_notice {
+    display: flex;  
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 15%;
+    background-color: rgba(246,246,246,255);
+    width: 55%;
+    border-radius: 1%;
+}
+.search {
+    display: flex;  
+    flex-direction: row;
+    background-color: white;
+    height: 4%;
+    border-radius: 10px;
+}
+.Search_box {
+    position: relative;
+    left: 2%;
+    top: 10%;
+    height: 70%;
+    width: 80%;
+    padding-left: 2%;
+    font-size: 1rem;
+    border-style: solid;
+    border-radius: 10px;
+
+}
+.Search_button {
+    position: relative;
+    left:5%;
+    top: 10%;
+    height: 80%;
+    width: 10%;
+    background-color: #448df7;
+    font-size: 1rem;
+    color: azure;
+    border-style: solid;
+    border-radius: 10px;
+
+}
+.Select_input {
     position: relative;
     left: 10%;
+    top: 1%;
     color: black;
     width: 80%;
-    /* Set width */
-    height: 6%;
-    /* Set height */
+    height: 2.2%;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 255);
     border-style: solid;
@@ -13,290 +154,85 @@
     border-color: rgba(246, 246, 246, 255);
     font-size: 1rem;
 }
-
-.header {
+.star {
+    position: relative;
+    top: 8%;
+    left: 90%;
+}
+.filter_form {
+    display: flex;  
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 2%;
+    background-color:rgb(255, 255, 255);
+    width: 20%;
+    border-radius: 1%;
+}
+.filter_txt {
     padding-left: 15px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font: bold;
     font-family: 'Arial', sans-serif;
 }
-
-.header2 {
+.form_header1 {
     position: relative;
-    left: 5%;
-    top: 40%;
-    padding-left: 15px;
-    font-size: 20px;
-    font: bold;
-}
-
-.h7 {
-    position: inherit;
-    left: 10%;
-    top: 11%;
-    font-family: 'Arial', sans-serif;
-    font-size: 1.3rem;
-    padding: top 10%;
-    padding: left 40%;
-}
-
-.hider {
-    position: fixed;
-    top: 0px;
-    width: 2080px;
-    height: 200px;
-    background-color: #f6f6f6;
-
-}
-
-.tag {
-    position: relative;
-    display: inline-block;
-    color: rgb(101, 96, 96);
-    padding: 8px 20px;
-    border-radius: 25px;
-    background-color: #d4d9de;
-    width: 4%;
-    height: 6%;
-    font-size: 1.1rem;
-}
-
-.tag1 {
-
-    top: 5%;
-    left: 5%;
-}
-
-.tag2 {
-    top: 0%;
-    left: 55%;
-}
-
-.tag3 {
-    top: 0%;
-    left: 85%;
-}
-
-.txt {
-    padding-left: 0.6rem;
-    font-size: 1rem;
-    color: #979fa5;
-}
-
-.txt2 {
-    position: inherit;
-    left: 10%;
-    top: 13%;
-    font-size: 1.1rem;
-    color: #6a6c73;
-}
-
-.txt3 {
-    position: inherit;
-    left: 10%;
-    top: 5%;
-    font-size: 1.1rem;
-    color: black;
-}
-
-.topPage_Find_Job {
-    position: fixed;
-    left: 70%;
-    top: 3.5%;
-    font-size: 1rem;
-    color: #b8b8b8;
-}
-
-.topPage_Company_Aplications {
-    position: fixed;
-    left: 50%;
-    top: 3.5%;
-    font-size: 1rem;
-    color: #b8b8b8;
-}
-
-.topPage_Company_Reviews {
-    position: fixed;
-    left: 30%;
-    top: 3.5%;
-    font-size: 1rem;
-    color: #b8b8b8;
-}
-
-.loc3 {
-    position: inherit;
-    left: 2%;
-    top: 10%;
-}
-
-.loc2 {
-    position: inherit;
-    left: 55%;
-    top: 18%;
-}
-
-.loc {
-    position: absolute;
-    left: 10px;
-    top: 100px;
-}
-
-.logo {
-    position: relative;
-    left: 8%;
     top: 2%;
-    font-size: 2rem;
-    color: #050505;
+    padding-left: 15px;
+    font-size: 1.5rem;
+    font: bold;
+    font-family: 'Arial', sans-serif;
 }
-
-.logopic {
-    position: fixed;
-    left: 3%;
-    top: 3.5%;
-}
-
-.logoG {
-    position: inherit;
-    left: 3%;
-    top: 25%;
-}
-
-.filter_notice {
-    display: none;
-}
-
-.notices {
-    position: fixed;
-    left: 23.5%;
-    top: 22%;
-    height: 80%;
-    width: 42%;
-    color: rgb(0, 0, 0);
-    background-color: rgba(255, 255, 255, 255);
-    border-radius: 10px;
-    grid-area: 3/3/3/5;
-}
-
-.page-Header {
-    display: none;
-}
-
-.Search {
+.form_header2 {
     position: relative;
-    left: 3%;
-    top: 18%;
-    width: 82%;
-    height: 55%;
-    border-radius: 10px;
-    padding-left: 10px;
-    font-size: 1rem;
-    border-style: solid;
+    top: 5%;
+    padding-left: 15px;
+    font-size: 1.5rem;
+    font: bold;
+    font-family: 'Arial', sans-serif;
 }
-
-.Search_form {
-
-    display: none;
-
-}
-
-.savemark {
-    position: inherit;
-    left: 90%;
-    top: 0%;
-}
-
-.Search_button {
-    background-color: #448df7;
+.form_header3 {
     position: relative;
-    left: 5%;
-    top: 18%;
-    width: 10%;
-    height: 70%;
-    color: white;
-    border-style: solid;
-    border-radius: 10px;
-
+    top: 10%;
+    padding-left: 15px;
+    font-size: 1.5rem;
+    font: bold;
+    font-family: 'Arial', sans-serif;
 }
-
-.bar_back {
-   display: none;
-}
-
-.bell {
+.checkbox1{
     position: relative;
-    left: 80%;
-    top: 20%;
-}
-
-.bar {
-    display: none;
-}
-
-.n1 {
-    position: relative;
-    background-color: #f9f9f9;
-    width: 300%;
-    height: 320%;
-    left: 190%;
-    top: 340%;
-    border-radius: 10px;
-}
-
-.n2 {
-    position: relative;
-    background-color: #f9f9f9;
-    width: 338%;
-    height: 320%;
-    left: 100%;
-    top: 710%;
-    border-radius: 10px;
-}
-
-.n3 {
-    position: relative;
-    background-color: #f9f9f9;
-    width: 295%;
-    height: 320%;
-    left: -2%;
-    top: 1090%;
-    border-radius: 10px;
-}
-
-.setsizeMG_Glass {
-    position: relative;
-    left: 90%;
-    top: -30%;
-}
-
-.grid_container {
-    display: grid;
-    grid-template-rows: 70px 100px 1000px;
-    grid-template-columns: 250px 220px 250px 250px 380px 600px;
-    gap: 10px;
-
-}
-
-.close {
-    position: relative;
-    left: 85%;
-    top: 4%;
-}
-
-.close_bttn {
-    position: relative;
-    left: 57%;
-    top: 4%;
-    color: #b8b8b8;
-    font-size: 0.9rem;
-}
-
-.checkbox {
-    position: relative;
+    top: 3%;
     display: inline-flex;
     align-items: center;
     padding-left: 4%;
 }
-
+.checkbox2 {
+    position: relative;
+    top: 3.5%;
+    display: inline-flex;
+    align-items: center;
+    padding-left: 4%;
+}
+.checkbox3 {
+    position: relative;
+    top: 6.5%;
+    display: inline-flex;
+    align-items: center;
+    padding-left: 4%;
+}
+.checkbox4 {
+    position: relative;
+    top: 7.5%;
+    display: inline-flex;
+    align-items: center;
+    padding-left: 4%;
+}
+.checkbox5 {
+    position: relative;
+    top: 8.5%;
+    display: inline-flex;
+    align-items: center;
+    padding-left: 4%;
+}
 .checkbox__input {
     display: none;
 }
@@ -326,37 +262,25 @@
 
 .checkbox__input:checked+.sqcheckbox__inner {
     background-color: #458ef8;
-    /* Background when checked */
     border-color: #458ef8;
-    /* Border color when checked */
 }
 
 .checkbox__input:checked+.checkbox__inner {
     background-color: #458ef8;
-    /* Background when checked */
     border-color: #458ef8;
-    /* Border color when checked */
 }
 
 .checkbox__inner::after {
     content: "";
     position: absolute;
     left: 6px;
-    /* Position of the checkmark */
     top: 2px;
-    /* Position of the checkmark */
     width: 4px;
-    /* Width of the checkmark */
     height: 10px;
-    /* Height of the checkmark */
     border: solid white;
-    /* Checkmark color */
     border-width: 0 2px 2px 0;
-    /* Checkmark shape */
     transform: rotate(45deg);
-    /* Rotate to form a checkmark */
     opacity: 0;
-    /* Initially hidden */
     transition: opacity 0.3s;
 }
 
@@ -368,247 +292,107 @@
     opacity: 1;
 }
 
-.slider-container {
-    width: 80%;
-    margin: auto;
+.txt {
+    padding-left: 0.6rem;
+    font-size: 1rem;
+    color: #979fa5;
+}
+.n1 {
+    display: flex;
+    flex-direction: row;
     position: relative;
+    background-color:#f9f9f9;
+    border-radius: 10px;
+    margin: 3%;
+    height: 30%;
 }
-
-.slider {
+.n2{
+    display: flex;
+    flex-direction: row;
     position: relative;
-    left: 20px;
-    width: 200px;
-    height: 15px;
-    background: #ddd;
-
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin: 3%;
+    height: 30%;
+}
+/*
+<div class="n1">
+                        <i class="logoG fa-solid fa-dumpster-fire fa-2xl" style="color: #33d17a;"></i>
+                        <label class="title">Create a figma Design for Web<br> Aplications</label><br>
+                        <label class="expl">Hourly: $100-$350 - Remote Friendly</label>
+                        <i class="savemark fa-regular fa-bookmark fa-lg" style="color: #828c99;"></i><br><br>
+                        <label class="expl"> some of blah blah blah . . .</label>
+                        <div class="star">
+                            <i class="fa-solid fa-star fa-sm" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star fa-sm" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star fa-sm" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star fa-sm" style="color: #FFD43B;"></i>
+                            <i class="fa-solid fa-star fa-sm" style="color: #FFD43B;"></i>
+                        </div>
+                        <i class="location_logo fa-solid fa-location-dot fa-lg" style="color: #6a748e;"></i>
+                        <label class="location"> New York</label>
+                        <i class="payment fa-solid fa-circle-check fa-sm" style="color: #1c71d8;"></i>
+                        <label class="payment_txt"> Payment Verified</label>
+                    </div>
+*/
+.notices {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 2%;
+    height: 50%;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 255);
+    border-radius: 10px;
+}
+.logoG {
+    position: relative;
+    left: 3%;
+    top: 15%;
+}
+.location_logo {
+    position: relative;
+    left: 150%;
+    top: 6%;
+}
+.title {
+    position: relative;
+    left:6%;
+    top: 10%;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.3rem;
+    padding: top 10%;
+    padding: left 40%;
+}
+.expl {
+    position: relative;
+    left: 0%;
+    top: 40%;
+    font-size: 1.1rem;
+    color: #6a6c73;
+}
+.location {
+    position: relative;
+    left: 155%;
+    top:6%;
+    font-size: 1rem;
+    color: #979fa5;
+}
+.payment {
+    position: relative;
+    left: 2%;
+    top:6%;
+}
+.payment_txt {
+    position: relative;
+    left: 2%;
+    top:6%;
+    font-size: 1rem;
+    color: #979fa5;
 }
 
-.star {
-    position: inherit;
-    top: 28%;
-    left: 30%;
-}
-
-.sqcheckbox__inner::after {
-    content: "";
-    position: absolute;
-    left: 6px;
-    /* Position of the checkmark */
-    top: 2px;
-    /* Position of the checkmark */
-    width: 4px;
-    /* Width of the checkmark */
-    height: 10px;
-    /* Height of the checkmark */
-    border: solid white;
-    /* Checkmark color */
-    border-width: 0 2px 2px 0;
-    /* Checkmark shape */
-    transform: rotate(45deg);
-    /* Rotate to form a checkmark */
-    opacity: 0;
-    /* Initially hidden */
-    transition: opacity 0.3s;
-}
-
-@media (min-width:1330px) and (min-height : 483px) {
-
-    .page-Header {
-        display: block;
-        position: fixed;
-        width: 100%;
-        height: 8%;
-        color: rgb(0, 0, 0);
-        font-size: 1.2rem;
-        background-color: rgba(255, 255, 255, 1);
-        border-radius: 6px;
-        grid-area: 1/5/1/6;
-    }
-
-    .Search_form {
-        display: block;
-        position: fixed;
-        left: 23.5%;
-        top: 12%;
-        width: 41.8%;
-        height: 8%;
-        color: rgb(0, 0, 0);
-        font-size: 1.2rem;
-        background-color: rgba(255, 255, 255, 255);
-        border-radius: 10px;
-        grid-area: 2/3/2/5;
-    }
-}
-
-@media (max-width: 438px) or (max-height : 483px){
-    .bar {
-        display: block;
-        position: inherit;
-        left: 30%;
-        top: 30%;
-    }
-    .bar_back {
-        display: block;
-        position: relative;
-        top: 100%;
-        left: 270%;
-        width: 30%;
-        border-radius: 10px;
-        background-color:#6a6c73;
-    }
-
-}
-
-@media (max-width: 390px) or (max-height : 483px){
-    .bar {
-        display: block;
-        position: inherit;
-        left: 30%;
-        top: 30%;
-    }
-    .bar_back {
-        display: block;
-        position: relative;
-        top: 100%;
-        left: 200%;
-        width: 80%;
-        border-radius: 10px;
-        background-color:#6a6c73;
-    }
-
-}
-
-@media (min-width:1330px) and (min-height : 850px) {
-    .filter_notice {
-        display: block;
-        position: fixed;
-        left: 67%;
-        top: 13%;
-        width: 15%;
-        height: 84%;
-        color: rgb(0, 0, 0);
-        font-size: 1rem;
-        background-color: rgba(255, 255, 255, 255);
-        border-radius: 10px;
-        grid-area: 2/6/3/6;
-    }
-
-}
-
-@media (max-width: 1800px) {
-
-    .topPage_Company_Reviews {
-        left: 20%;
-    }
-
-    .topPage_Find_Job {
-        left: 50%;
-    }
-
-    .topPage_Company_Aplications {
-        left: 35%
-    }
-
-    .bell {
-        left: 60%;
-    }
-
-    .filter_notice {
-        left: 60%;
-    }
-
-    .notices {
-        width: 45%;
-        left: 10%;
-    }
-
-    .Search_form {
-        left: 10%;
-    }
-
-    .n1 {
-        left: 100%;
-        top: 410%;
-    }
-
-    .n2 {
-        left: 0%;
-        top: 810%;
-    }
-
-    .n3 {
-        left: -95%;
-        top: 1210%;
-    }
-}
-
-@media (max-width:1330px) {
-    .notices {
-        left: 0%;
-        top: -10%;
-        width: 100%;
-        height: 100%;
-    }
-    .n1 {
-        left: 10%;
-        top:500%;
-        width: 700%;
-        height: 900%;
-    }
-    .n2 {
-        left:-110%;
-        width: 780%; 
-        top: 1400%;
-        height: 800%;
-    }
-    .n3 {
-        left: -190%;
-        width: 700%;
-        top: 2200%;
-        height: 700%;
-    }
-    .h7{
-        font-size: 5rem;
-    }
-    .txt2 {
-        font-size: 4rem;
-    }
-    .txt3 {
-        font-size: 4rem;
-    }
-    .star {
-        position: inherit;
-        top: 15%;
-        left: 40%;
-        font-size: 50px;
-    }
-    .loc2 {
-        font-size: 50px;
-        left: 62%;
-        top: 0%;
-    }
-    .txt {
-        font-size: 3rem;
-    }
-    .loc3 {
-        font-size: 50px;
-        top: -10%;
-    }
-    .logoG {
-        font-size: 40px;
-        left: 2% ;
-    }
-    .savemark {
-        top: -30%;
-        left: 76%;
-        font-size: 40px;
-    }
-
-}
-
-
-
-/*    <div class="coordinate1">
+/*  rgba(246,246,246,255)  <div class="coordinate1">
                 <div class="tag">
                     <span class="tag-cloud">dth</span>
                 </div>
