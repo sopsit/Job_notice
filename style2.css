@@ -1,0 +1,241 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    height: 2000px;
+    background-color: rgba(246, 246, 246, 255);
+    width: 100vw;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 1);
+    height: 75px;
+    width: 100%;
+    z-index: 100;
+}
+
+.logo {
+    position: relative;
+    left: 4%;
+    top: 40%;
+}
+
+.logoG {
+
+    padding-top: 60px;
+    padding-left: 40px;
+}
+
+.Jobinja {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 5%;
+    top: 30%;
+    font-size: 1.5rem;
+}
+
+.topPage_Company_Reviews {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 25%;
+    top: 30%;
+    font-size: 1rem;
+    color: #b8b8b8;
+}
+
+.topPage_Find_Job {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 35%;
+    top: 30%;
+    font-size: 1rem;
+    color: #b8b8b8;
+
+}
+
+.topPage_Company_Aplications {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 45%;
+    top: 30%;
+    font-size: 1rem;
+    color: #b8b8b8;
+
+}
+
+.tag {
+
+    display: inline-block;
+    color: rgb(101, 96, 96);
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.1rem;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.bell {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 55%;
+    top: 30%;
+
+}
+
+.bar {
+    display: none;
+}
+
+.others {
+    display: flex;
+    flex-direction: row;
+    margin-top: 120px;
+    background-color: rgba(246, 246, 246, 255);
+    height: 2000px;
+}
+
+.filter_form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    height: 790px;
+    border-radius: 1%;
+}
+
+.notice {
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    background-color: white;
+    height: 790px;
+    border-radius: 10px;
+}
+
+.Company_name {
+    padding-top: 40px;
+    font-size: 1.5rem;
+    font-family: 'Vazirmatn', sans-serif;
+    text-align: right;
+}
+
+.Company_location {
+    color: #706C6C;
+    font-size: 1.2rem;
+    text-align: right;
+    font-family: 'Vazirmatn';
+}
+
+.col1 {
+
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+}
+
+.col2 {
+
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 200px;
+}
+.Field {
+    font-size: 1.3rem;
+    font-family: 'Vazirmatn'; 
+    text-align: right; 
+    padding-right: 40px;
+}
+.title {
+    font-size: 2rem;
+    font-family: 'Vazirmatn'; 
+    text-align: right; 
+    padding-right: 40px;
+    padding-top: 40px;
+}
+.empl {
+    color: #706C6C;
+    font-size: 1.2rem;
+    font-family: 'Vazirmatn'; 
+    text-align: right; 
+    padding-right: 40px;
+}
+.links{
+    padding-left: 20px;
+    padding-top: 10px;
+    color: #706C6C;
+    font-size: 1.2rem;
+    font-family: 'Vazirmatn'; 
+    text-align: left; 
+    padding-right: 40px;
+}
+.back{
+    background-color: #D9D9D9;
+    width: 65px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-right: 720px;
+    text-align: center;
+    padding-top: 15px; 
+}
+.back_txt{
+    font-size: 1rem;
+    font-family: 'Vazirmatn'; 
+}
+.tag_txt{
+    color: #706C6C;
+    font-size: 1rem;
+    text-align: right;
+}
+.tag2 {
+
+    display: inline-block;
+    color: rgb(101, 96, 96);
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 100px;
+}
+.tag3 {
+    color: white;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 100px;
+}
+.tag_txt {
+    padding-right:30px ;
+    color: #706C6C;
+    font-size: 1.2rem;
+    font-family: 'Vazirmatn'; 
+}
+.inside_tag {
+    color: #706C6C;
+    font-size: 1.2rem;
+    font-family: 'Vazirmatn';
+}

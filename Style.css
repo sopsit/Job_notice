@@ -2,13 +2,14 @@ body {
     margin: 0; 
     padding: 0;
 }
+
 .background {
     display: flex;
     flex-direction: column;
-    margin: 0;
-    padding: 0;
     height: 2000px;
     background-color: rgba(246,246,246,255);
+    width: 100vw;
+    height: 100vh;
 }
 .close_bttn {
 
@@ -25,10 +26,12 @@ body {
 }
 .navbar {
     display: flex;  
+    position: fixed;
     flex-direction: row;
-    margin-top: 20px;
     background-color: rgba(255, 255, 255, 1);
-    height: 4%;
+    height: 75px;
+    width: 100%;
+    z-index: 100;
 }
 .logo {
     position: relative;
@@ -83,17 +86,17 @@ body {
 .others{
     display: flex;  
     flex-direction: row;
-    margin-top: 20px;
+    margin-top: 120px;
     background-color: rgba(246,246,246,255);
-    height: 100%;
+    height: 2000px;
 }
-.savemark{
-    position: relative;
-    left: 90%;
+.savemark{  
+    margin-left: 100px;
+    margin-top: 40px;
 }
 .slider {
     position: relative;
-    top: 12%;
+    top:  250px;
     left: 20%;
     width: 200px;
     height: 15px;
@@ -102,8 +105,7 @@ body {
 .search_notice {
     display: flex;  
     flex-direction: column;
-    margin-top: 20px;
-    margin-left: 15%;
+    margin-left: 300px;
     background-color: rgba(246,246,246,255);
     width: 55%;
     border-radius: 1%;
@@ -112,7 +114,7 @@ body {
     display: flex;  
     flex-direction: row;
     background-color: white;
-    height: 4%;
+    height: 80px;
     border-radius: 10px;
 }
 .Search_box {
@@ -146,7 +148,7 @@ body {
     top: 1%;
     color: black;
     width: 80%;
-    height: 2.2%;
+    height: 50px;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 255);
     border-style: solid;
@@ -155,17 +157,17 @@ body {
     font-size: 1rem;
 }
 .star {
-    position: relative;
-    top: 8%;
-    left: 90%;
+ padding-top: 40px;
+ padding-left: 85px;
+
 }
 .filter_form {
-    display: flex;  
+    display: flex; 
     flex-direction: column;
-    margin-top: 20px;
     margin-left: 2%;
     background-color:rgb(255, 255, 255);
     width: 20%;
+    height:790px;
     border-radius: 1%;
 }
 .filter_txt {
@@ -176,7 +178,7 @@ body {
 }
 .form_header1 {
     position: relative;
-    top: 2%;
+    top: 50px;
     padding-left: 15px;
     font-size: 1.5rem;
     font: bold;
@@ -184,7 +186,7 @@ body {
 }
 .form_header2 {
     position: relative;
-    top: 5%;
+    top: 120px;
     padding-left: 15px;
     font-size: 1.5rem;
     font: bold;
@@ -192,7 +194,7 @@ body {
 }
 .form_header3 {
     position: relative;
-    top: 10%;
+    top: 200px;
     padding-left: 15px;
     font-size: 1.5rem;
     font: bold;
@@ -200,35 +202,35 @@ body {
 }
 .checkbox1{
     position: relative;
-    top: 3%;
+    top: 90px;
     display: inline-flex;
     align-items: center;
     padding-left: 4%;
 }
 .checkbox2 {
     position: relative;
-    top: 3.5%;
+    top: 100px;
     display: inline-flex;
     align-items: center;
     padding-left: 4%;
 }
 .checkbox3 {
     position: relative;
-    top: 6.5%;
+    top: 140px;
     display: inline-flex;
     align-items: center;
     padding-left: 4%;
 }
 .checkbox4 {
     position: relative;
-    top: 7.5%;
+    top: 160px;
     display: inline-flex;
     align-items: center;
     padding-left: 4%;
 }
 .checkbox5 {
     position: relative;
-    top: 8.5%;
+    top: 180px;
     display: inline-flex;
     align-items: center;
     padding-left: 4%;
@@ -297,113 +299,194 @@ body {
     font-size: 1rem;
     color: #979fa5;
 }
-.n1 {
+.n {
     display: flex;
-    flex-direction: row;
-    position: relative;
+    flex-direction: column;
     background-color:#f9f9f9;
     border-radius: 10px;
     margin: 3%;
-    height: 30%;
+    width: 1000px;
 }
-.n2{
+
+.row1 {
     display: flex;
     flex-direction: row;
-    position: relative;
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    margin: 3%;
-    height: 30%;
+    flex-wrap: wrap;
+    height: 100px;
+    width: 1000px;
 }
-/*
-<div class="n1">
-                        <i class="logoG fa-solid fa-dumpster-fire fa-2xl" style="color: #33d17a;"></i>
-                        <label class="title">Create a figma Design for Web<br> Aplications</label><br>
-                        <label class="expl">Hourly: $100-$350 - Remote Friendly</label>
-                        <i class="savemark fa-regular fa-bookmark fa-lg" style="color: #828c99;"></i><br><br>
-                        <label class="expl"> some of blah blah blah . . .</label>
-                        <div class="star">
-                            <i class="fa-solid fa-star fa-sm" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star fa-sm" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star fa-sm" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star fa-sm" style="color: #FFD43B;"></i>
-                            <i class="fa-solid fa-star fa-sm" style="color: #FFD43B;"></i>
-                        </div>
-                        <i class="location_logo fa-solid fa-location-dot fa-lg" style="color: #6a748e;"></i>
-                        <label class="location"> New York</label>
-                        <i class="payment fa-solid fa-circle-check fa-sm" style="color: #1c71d8;"></i>
-                        <label class="payment_txt"> Payment Verified</label>
-                    </div>
-*/
+
 .notices {
     display: flex;
     flex-direction: column;
     background-color: white;
     margin-top: 2%;
-    height: 50%;
+    height:690px;
+    overflow:auto;
     width: 100%;
     color: rgb(0, 0, 0);
     background-color: rgba(255, 255, 255, 255);
     border-radius: 10px;
 }
 .logoG {
-    position: relative;
-    left: 3%;
-    top: 15%;
-}
-.location_logo {
-    position: relative;
-    left: 150%;
-    top: 6%;
+    margin-top: 50px;
+    margin-left: 50px ;
 }
 .title {
-    position: relative;
-    left:6%;
-    top: 10%;
+   
     font-family: 'Arial', sans-serif;
     font-size: 1.3rem;
-    padding: top 10%;
-    padding: left 40%;
+    margin-left:10px ;
+    margin-top: 20px;   
 }
-.expl {
-    position: relative;
-    left: 0%;
-    top: 40%;
+.expl {  
+    margin-top: 8px; 
+    margin-left: 5px ;
     font-size: 1.1rem;
     color: #6a6c73;
 }
+.full_expl {
+    margin-left: 105px;
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
 .location {
-    position: relative;
-    left: 155%;
-    top:6%;
+   
     font-size: 1rem;
     color: #979fa5;
-}
-.payment {
-    position: relative;
-    left: 2%;
-    top:6%;
 }
 .payment_txt {
-    position: relative;
-    left: 2%;
-    top:6%;
     font-size: 1rem;
     color: #979fa5;
 }
+.tag {
 
-/*  rgba(246,246,246,255)  <div class="coordinate1">
-                <div class="tag">
-                    <span class="tag-cloud">dth</span>
-                </div>
-            </div>
-            <div class="coordinate2">
-                <div class="tag">
-                    <span class="tag-cloud">dth</span>
-                </div>
-            </div>
-            <div class="coordinate3">
-                <div class="tag">
-                    <span class="tag-cloud">dth</span>
-                </div>
-            </div>*/
+    display: inline-block;
+    color: rgb(101, 96, 96);
+    border-radius: 25px;
+    background-color: #d4d9de;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.1rem;
+}
+.tags {
+    display: flex;
+    flex-direction: column;
+    height: 35px; width: 90px;
+    margin-left: 20px;
+}
+.bar {
+    display: none;
+}
+@media (max-width: 1680px) {
+    .close {
+       left: 60%;
+    }
+}
+@media (max-width: 1092px) {
+    .close {
+       left: 50%;
+    }
+    .slider {
+        left: 10%;
+    }
+}
+@media (max-width: 1258px) {
+   .form_header1{
+    font-size: 1.2rem;
+   }
+   .form_header2{
+    font-size: 1.2rem;
+   }
+   .form_header3{
+    font-size: 1.2rem;
+   }
+   .txt{
+    font-size: 0.9rem;
+   }sli
+   .slider{
+    width: 140px;
+   }
+   .search_notice {
+    margin-left: 200px;
+   }
+}
+@media (max-width:842px) {
+    .filter_form{
+        display: none;
+    }
+    .search_notice {
+        width: 95%;
+        margin: 2%;
+    }
+}
+@media (max-width:1300px) {
+    .bell{
+        left: 40%;
+    }
+    .topPage_Company_Aplications{
+        left: 30%;
+    }
+    .topPage_Company_Reviews{
+        left: 27%;
+    }
+    .topPage_Find_Job {
+        left: 0%;
+    }
+}
+@media (max-width:927px) {
+    .topPage_Company_Aplications{
+        display: none;
+    }
+    .topPage_Company_Reviews{
+        display: none;
+    }
+    .topPage_Find_Job {
+        display: none;
+    }
+    .bell {
+        display: none;
+        visibility: hidden;
+    }
+    .bar {
+        display: flex;
+        flex-direction: column;
+        margin-left: 70%;
+        margin-top: 35px;
+    }
+}
+@media (max-width: 548px) {
+    .bar {
+        display: flex;
+        flex-direction: column;
+        margin-left: 55%;
+        margin-top: 30px;
+    } 
+}
+@media (max-width: 428px) {
+    .title{
+        font-size: 1.1rem;
+    }
+    .expl{
+        font-size: 0.9rem;
+    }
+    .full_expl{
+        font-size: 1rem;
+    }
+    .tag {
+        font-size: 0.9rem;
+    }
+    .tags {
+        width: 60px;
+        height: 30px;
+    }
+    .Search_box {
+        font-size: 0.8rem;
+    }
+    .Search_button {
+        font-size: 0.5rem;
+    }
+    .others {
+        margin-top: 100px;
+    }
+}
